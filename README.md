@@ -104,8 +104,9 @@ programming concepts in a real-world application.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
+```text
 Personal_Expense_Tracker/
 │
 ├── main.py
@@ -131,6 +132,7 @@ Personal_Expense_Tracker/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
 
 
 ## 🏗️ Project Architecture
