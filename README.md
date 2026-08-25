@@ -109,29 +109,33 @@ programming concepts in a real-world application.
 ```text
 Personal_Expense_Tracker/
 │
-├── main.py
+├── data/
+│   ├── README.md
+│   └── expenses.csv
+│
+├── docs/
+│   ├── README.md
+│   └── project_documentation.md
 │
 ├── modules/
+│   ├── README.md
 │   ├── __init__.py
 │   ├── expense_manager.py
 │   ├── file_handler.py
-│   ├── validator.py
 │   ├── reports.py
+│   ├── validator.py
 │   └── visualization.py
 │
-├── data/
-│   └── expenses.csv
-│
 ├── tests/
+│   ├── README.md
 │   ├── __init__.py
 │   └── test_expense_tracker.py
 │
-├── docs/
-│   └── project_documentation.md
-│
-├── requirements.txt
+├── .gitignore
+├── LICENSE
 ├── README.md
-└── .gitignore
+├── main.py
+└── requirements.txt
 
 
 
