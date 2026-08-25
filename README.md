@@ -104,6 +104,35 @@ programming concepts in a real-world application.
 
 ---
 
+## Project Structure
+
+Personal_Expense_Tracker/
+│
+├── main.py
+│
+├── modules/
+│   ├── __init__.py
+│   ├── expense_manager.py
+│   ├── file_handler.py
+│   ├── validator.py
+│   ├── reports.py
+│   └── visualization.py
+│
+├── data/
+│   └── expenses.csv
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_expense_tracker.py
+│
+├── docs/
+│   └── project_documentation.md
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+
 ## 🏗️ Project Architecture
 
 ```text
@@ -136,4 +165,6 @@ programming concepts in a real-world application.
        │ expenses.csv│
        └─────────────┘
 
-##📂 Project Structure
+
+
+
